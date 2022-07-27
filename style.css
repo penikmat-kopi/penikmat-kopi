@@ -1,6 +1,6 @@
 body, html {
     background-color: #281103;
-    color: azure;
+    color: #eee3d0;
     font-family: poppins;
 }
 
@@ -17,8 +17,4 @@ body, html {
     width: 15em;
     height: 15em;
     flex: auto;
-}
-
-p {
-    gap: 0.5px;
 }
