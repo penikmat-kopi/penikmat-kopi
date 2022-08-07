@@ -1,7 +1,8 @@
 body, html {
     background-color: #281103;
-    color: #eee3d0;
+    color: #fefcfb;
     font-family: poppins;
+    text-decoration: none;
 }
 
 .flex {
@@ -17,4 +18,29 @@ body, html {
     width: 15em;
     height: 15em;
     flex: auto;
+}
+
+.button {
+    background-color: #281103;
+    border-radius: 10em;
+    width: 200px;
+    padding: 1em;   
+    margin: 2.5em 0;
+    border: 2.5px solid #fefcfb;
+    color: #fefcfb;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.button:hover {
+    background-color: #fefcfb;
+    color: #281103;
+}
+
+.button:hover .icon-github {
+    content: url(https://raw.githubusercontent.com/adamjatim/adamjatim.github.io/1ff2a0b62fc1dcc0a1aa9c67767017729f296083/img/iconGithubDark.svg);
 }
